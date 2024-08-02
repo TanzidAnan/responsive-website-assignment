@@ -179,8 +179,11 @@ body {
     font-weight: 400;
 }
 
+/* habits sectio style */
+
 .habits-section {
-    margin-top: 100px;
+    width: 1044px;
+    margin: 0 auto;
 }
 
 .habits-div {
@@ -194,6 +197,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 5px;
+    margin-top: 100px;
 }
 
 .habits-div p {
@@ -219,9 +223,54 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
-.habits-item p{
+
+.habits-item p {
     margin-top: 6px;
     color: rgba(255, 255, 255, 0.5);
-font-size: 15px;
-font-weight: 400;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Run an Extra Mile Easily style */
+.mile-easily-section {
+    width: 1045px;
+    border-radius: 18px;
+    height: 371px;
+    background: rgb(34, 34, 34);
+    margin: 100px auto;
+}
+
+.mile-easily-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mile-div {
+    width: 443px;
+    padding: 40px;
+}
+
+.mile-div h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.mile-div p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0;
+
+}
+
+.mile-img {
+    width: 450px;
+    margin-top: 40px;
+
+}
+
+.mile-img img {
+    width: 100%;
+    border-radius: 18px;
 }
