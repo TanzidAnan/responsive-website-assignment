@@ -558,7 +558,7 @@ footer {
 /* media quere */
 @media screen and (max-width:576px) {
     .container {
-        width: 90%;
+        width: 100%;
     }
 
     .nav-item {
@@ -574,11 +574,12 @@ footer {
     }
 
     .hero-div1 {
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
+        padding-left: 20px;
     }
     .hero-div1 p {
         width: 274px;
+
     }
     .hero-div2  {
         width: 353px;
@@ -592,8 +593,7 @@ footer {
         right: -10px;
     }
     .habits-section {
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
     }
     .habits-img-div{
         grid-template-columns: repeat(1, 1fr);
@@ -609,11 +609,13 @@ footer {
         margin: 10px auto;
     }
     .mile-easily-section{
-        width: 80%;
-        height: auto;
-    }
-    .mile-div{
         width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .mile-div {
+        width: 80%;
+        padding: 40px;
     }
     .mile-easily-div{
         flex-direction: column;
@@ -653,12 +655,21 @@ footer {
     .latest-news{
         grid-template-columns: repeat(1, 1fr);
     }
-    .footer-section {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
+    footer{
+        background: rgba(255, 255, 255, 0.1);
     }
-    .fitness-div1{
-        margin-top: 30px;
+
+    .footer-section {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .fitness-div {
+        width: 100%;
+    }
+    .fitness-div1 {
+        width: 100%;
+        padding-top: 30px;
     }
     .copi{
         width: 80%;
