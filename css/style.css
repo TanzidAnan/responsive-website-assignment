@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+.tanzid {
+    display: none;
+}
+
 /* nav section style */
 .container {
     width: 1060px;
@@ -41,6 +45,13 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 
+}
+
+.display-block {
+    display: none;
+}
+.display-block img{
+    width: 35px;
 }
 
 #home {
@@ -119,6 +130,7 @@ body {
 
 .hero-img {
     position: relative;
+    width: 100%;
 }
 
 .a {
@@ -145,7 +157,7 @@ body {
 }
 
 .video-item h4 {
-    color: rgb(250, 250, 249);
+    /* color: rgb(250, 250, 249); */
     font-size: 24px;
     font-weight: 900;
 }
@@ -168,7 +180,7 @@ body {
 }
 
 .b h4 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 30px;
     font-weight: 900;
 }
@@ -219,7 +231,7 @@ body {
 
 .habits-item h5 {
     margin-top: 7px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 18px;
     font-weight: 600;
 }
@@ -251,7 +263,7 @@ body {
 }
 
 .mile-div h1 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 48px;
     font-weight: 900;
 }
@@ -282,7 +294,7 @@ body {
 }
 
 .bmi-title h1 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 48px;
     font-weight: 900;
 }
@@ -340,7 +352,7 @@ th {
 }
 
 .bmi-div2 h3 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 28px;
     font-weight: 900;
 }
@@ -382,7 +394,7 @@ select {
 }
 
 .meet-team-div h1 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 10px;
@@ -419,7 +431,7 @@ select {
 }
 
 .time-title h3 {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 1.5rem;
     font-weight: 900;
 }
@@ -515,7 +527,6 @@ footer {
 }
 
 .fitness-div1 h2 {
-    color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
 }
@@ -543,4 +554,113 @@ footer {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
     font-weight: 400;
+}
+/* media quere */
+@media screen and (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .display-block {
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-div1 {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .hero-div1 p {
+        width: 274px;
+    }
+    .hero-div2  {
+        width: 353px;
+    }
+    .a {
+        top: 414px;
+        left: -5px;
+    }
+    .b {
+        top: 100px;
+        right: -10px;
+    }
+    .habits-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .habits-img-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-div {
+        width: 100%;
+    }
+    .habits-div h1 {
+        font-size: 40px;
+    }
+    .habits-item{
+        width: 231px;
+        margin: 10px auto;
+    }
+    .mile-easily-section{
+        width: 80%;
+        height: auto;
+    }
+    .mile-div{
+        width: 90%;
+    }
+    .mile-easily-div{
+        flex-direction: column;
+    }
+    .mile-img{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .bmi-calculator {
+        width: 100%;
+        flex-direction: column;
+    }
+    .bmi-title {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bmi-div1{
+        width: 80%;
+    }
+    .bmi-div2 {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .meet-team-sectio {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .meet-team-div{
+        width: 80%;
+    }
+    .team-section{
+        width: 85%;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+    }
+    .latest-news{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-section {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fitness-div1{
+        margin-top: 30px;
+    }
+    .copi{
+        width: 80%;
+    }
 }
